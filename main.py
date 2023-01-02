@@ -19,12 +19,12 @@ while True:
 
 		elif tip > hadej:
 			nespravna_cisla.append(tip)
-			print("Hadane cislo je mensi")
+			print("Hádané číslo je menší.")
 			pocet_pokusu += 1
 
 		elif tip < hadej:
 			nespravna_cisla.append(tip)
-			print("Hadane cislo je větší")
+			print("Hádané číslo je větší.")
 			pocet_pokusu += 1
 
 		print(f"Tebou zadaná čísla: {nespravna_cisla}")
