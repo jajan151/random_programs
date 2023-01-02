@@ -14,7 +14,7 @@ while True:
 		print("Zadal jsi už jednou zadané číslo!")
 	else:
 		if tip == hadej:
-			print(f"Uhádl jsi na {pocet_pokusu}. pokus.")
+			print(f"Uhodl jsi na {pocet_pokusu}. pokus.")
 			break
 
 		elif tip > hadej:
